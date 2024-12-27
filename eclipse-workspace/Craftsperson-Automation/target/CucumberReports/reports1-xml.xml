@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="51.212" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="feature to Create New Customer Account" name="Successful Create Account with Valid Credentials" time="30.278">
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................passed
+When User opens URL "https://magento.softwaretestingboard.com/".............passed
+Then Click on Create an Account link........................................passed
+Then Enter the First Name...................................................passed
+Then Enter the Last Name....................................................passed
+Then Fill up the Email id...................................................passed
+Then Fill up the Password...................................................passed
+Then Fill up the Confirm Password...........................................passed
+And Click on Create an Account button.......................................passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="feature to test login functionality" name="Successful Login with Valid Credentials" time="20.717">
+<system-out><![CDATA[
+Given User Launch Chrome browser............................................passed
+When User opens URL "https://magento.softwaretestingboard.com/".............passed
+Then Click on Sign In link..................................................passed
+And User enters Email as "pawarpramod6154@gmail.com" and Password as "Pramod@123".passed
+And Click on SignIn.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
